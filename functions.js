@@ -18,8 +18,7 @@ module.exports = {
     },
     formatEmbed: (embed) => {
 
-        embed.setAuthor('Tomodachi says:', 'https://seigai.world/imgs/tomodachi.png')
-            .setFooter('“Tomodachi” is the Draconic word for friend!')
+        embed.setAuthor('Tomodachi-san says:', 'https://seigai.world/imgs/tomodachi.png')
             .setColor(0x17bc9b);
 
         return embed;

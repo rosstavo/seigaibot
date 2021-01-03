@@ -56,9 +56,7 @@ module.exports = {
             .addField('Virtues', virtues.join(', '), false)
             .addField('Flaws', flaws.join(', '), false);
 
-        msg.channel.send(embed).then(function (message) {
-            message.react('🔄');
-        });
+        msg.channel.send(embed);
 
     },
 };

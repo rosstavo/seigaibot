@@ -56,9 +56,9 @@ bot.on('ready', () => {
 
     var embed = functions.formatEmbed(new MessageEmbed());
 
-    embed.setTitle('Kzzzzt. Tomodachi has rebooted.');
+    embed.setTitle('Kzzzzt. Tomodachi-san has rebooted.');
 
-    bot.channels.cache.get(process.env.GENERAL).send(embed);
+    bot.channels.cache.get(process.env.LOG).send(embed);
 });
 
 /**
