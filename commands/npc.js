@@ -11,7 +11,7 @@ module.exports = {
         let age = 0;
         let offset = 2;
         let futureBirthday = Math.round(Math.random());
-        let gender = fns.arrayWeightedRandom(['Male', 'Male', 'Male', 'Female', 'Female', 'Female', 'Non-Binary']);
+        let gender = fns.arrayRandom(['Male', 'Male', 'Male', 'Female', 'Female', 'Female', 'Non-Binary']);
         let name = fns.arrayRandom(names[gender]);
 
         let race = fns.arrayWeightedRandom(races);
