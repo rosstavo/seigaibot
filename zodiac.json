@@ -1,0 +1,59 @@
+{
+    "rat": {
+        "virtues": ["forthright", "tenacious", "intense", "meticulous", "charismatic", "sensitive", "intellectual", "industrious", "charming", "eloquent", "sociable", "artistic", "shrewd"],
+        "flaws": ["manipulative", "vindictive", "self-destructive", "envious", "mendacious", "venal", "obstinate", "critical", "over-ambitious", "ruthless", "intolerant", "scheming"]
+    },
+    "ox": {
+        "virtues": ["dependable", "ambitious", "calm", "methodical", "born leader", "patient", "hardworking", "conventional", "steady", "modest", "logical", "resolute", "tenacious"],
+        "flaws": ["stubborn", "dogmatic", "hot-tempered", "narrow-minded", "materialistic", "rigid", "demanding"]
+
+    },
+    "tiger": {
+        "virtues": ["unpredictable", "rebellious", "colorful", "powerful", "passionate", "daring", "impulsive", "vigorous", "stimulating", "sincere", "affectionate", "humanitarian", "generous"],
+        "flaws": ["restless", "reckless", "impatient", "quick-tempered", "obstinate", "selfish", "aggressive", "moody"]
+
+    },
+    "rabbit": {
+        "virtues": ["gracious", "good friend", "kind", "sensitive", "soft-spoken", "amicable", "elegant", "reserved", "cautious", "artistic", "thorough", "tender", "self-assured", "shy", "astute", "compassionate", "lucky", "flexible"],
+        "flaws": ["moody", "detached", "superficial", "self-indulgent", "opportunistic", "stubborn"]
+
+    },
+    "dragon": {
+        "virtues": ["magnanimous", "stately", "vigorous", "strong", "self-assured", "proud", "noble", "direct", "dignified", "eccentric", "intellectual", "fiery", "passionate", "decisive", "pioneering", "artistic", "generous", "loyal"],
+        "flaws": ["tactless", "arrogant", "imperious", "tyrannical", "demanding", "intolerant", "dogmatic", "violent", "impetuous", "brash"]
+
+    },
+    "snake": {
+        "virtues": ["deep thinker", "wise", "mystic", "graceful", "soft-spoken", "sensual", "creative", "prudent", "shrewd", "elegant", "cautious", "responsible", "calm", "strong", "constant", "purposeful"],
+        "flaws": ["isolated", "bad communicator", "possessive", "hedonistic", "self-doubting", "distrustful", "mendacious", "suffocating", "cold"]
+
+    },
+    "horse": {
+        "virtues": ["cheerful", "popular", "quick-witted", "changeable", "earthy", "perceptive", "talkative", "agile", "magnetic", "intelligent", "astute", "flexible", "open-minded"],
+        "flaws": ["fickle", "arrogant", "childish", "anxious", "rude", "gullible", "stubborn"]
+
+    },
+    "sheep": {
+        "virtues": ["righteous", "sincere", "sympathetic", "mild-mannered", "observant", "artistic", "intellectual", "ingenious", "innovative", "creative", "mothering", "peaceful", "generous"],
+        "flaws": ["indecisive", "over-passive", "worrier", "pessimistic", "sensitive", "shy", "weak-willed"]
+
+    },
+    "monkey": {
+        "virtues": ["inventor", "motivator", "improviser", "quick-witted", "inquisitive", "flexible", "innovative", "problem solver", "self-assured", "sociable", "artistic", "polite", "dignified", "competitive", "objective", "factual"],
+        "flaws": ["egotistical", "vain", "arrogant", "selfish", "reckless", "snobbish", "deceptive", "manipulative", "cunning", "jealous", "suspicious", "stubborn"]
+    },
+    "rooster": {
+        "virtues": ["acute", "neat", "meticulous", "organized", "self-assured", "decisive", "conservative", "critical", "perfectionist", "alert", "zealous", "practical", "scientific", "responsible"],
+        "flaws": ["over-zealous and critical", "puritanical", "egotistical", "abrasive", "proud", "opinionated", "gives into empty bravado"]
+
+    },
+    "dog": {
+        "virtues": ["honest", "intelligent", "straightforward", "loyal", "sense of justice and fair play", "attractive", "amicable", "unpretentious", "sociable", "open-minded", "idealistic", "moralistic", "practical", "affectionate", "sensitive", "easy going"],
+        "flaws": ["cynical", "lazy", "cold", "judgmental", "pessimistic", "worrier", "stubborn", "quarrelsome"]
+
+    },
+    "boar": {
+        "virtues": ["honest", "gallant", "sturdy", "sociable", "peace-loving", "patient", "loyal", "hard-working", "trusting", "sincere", "calm", "understanding", "thoughtful", "scrupulous", "passionate", "intelligent"],
+        "flaws": ["naïve", "over-reliant", "self-indulgent", "gullible", "fatalistic", "materialistic"]
+    }
+}
