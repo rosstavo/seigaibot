@@ -71,11 +71,15 @@ module.exports = {
     romajiToPronunciationGuide: (str) => {
 
         const converter = require('@koozaki/romaji-conv');
+        const {
+            romajiToKana
+        } = require('simple-romaji-kana');
+
         const pronunciations = require('./pronunciations.json');
 
         str = str.toString();
 
-        let pronunciationGuide = converter(str).toKatakana();
+        let pronunciationGuide = romajiToKana(str.toUpperCase());
 
         for (let katakana in pronunciations) {
             

@@ -48,13 +48,15 @@ module.exports = {
 
 
         embed.setTitle('I managed to create this person:')
-            .addField('Name', name + '\n' + fns.romajiToPronunciationGuide(name), true)
+            .addField('Name', name, true)
+            .addField('Pronunciation*', fns.romajiToPronunciationGuide(name), true)
             .addField('Race', race.name, true)
             .addField('Gender', gender, true)
             .addField('Age', `${racialAge} years`, true)
             .addField('Sign', theZodiac.charAt(0).toUpperCase() + theZodiac.slice(1) + ` (${alignment(alignmentCoef)})`, true)
             .addField('Virtues', virtues.join(', '), false)
-            .addField('Flaws', flaws.join(', '), false);
+            .addField('Flaws', flaws.join(', '), false)
+            .setFooter('*Approximation');
 
         msg.channel.send(embed);
 

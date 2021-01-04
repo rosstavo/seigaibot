@@ -12,6 +12,7 @@
     "@koozaki/romaji-conv": "^2.0.6",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
+    "simple-romaji-kana": "^2.4.2",
     "truncate-html": "^1.0.3",
     "turndown": "^7.0.0"
   }
