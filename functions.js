@@ -70,12 +70,12 @@ module.exports = {
     },
     romajiToPronunciationGuide: (str) => {
 
-        const converter = require('@koozaki/romaji-conv');
         const {
             romajiToKana
         } = require('simple-romaji-kana');
 
         const pronunciations = require('./pronunciations.json');
+        const diphthongs = require('./diphthongs.json');
 
         str = str.toString();
 
@@ -84,7 +84,15 @@ module.exports = {
         for (let katakana in pronunciations) {
             
             if (pronunciationGuide.indexOf(katakana) !== -1) {
-                pronunciationGuide = pronunciationGuide.replace(katakana, pronunciations[katakana] + '-');
+                pronunciationGuide = pronunciationGuide.replace(new RegExp(katakana, "g"), pronunciations[katakana] + '-');
+            }
+
+        }
+
+        for (let diphthong in diphthongs) {
+
+            if (pronunciationGuide.indexOf(diphthong) !== -1) {
+                pronunciationGuide = pronunciationGuide.replace(new RegExp(diphthong, "g"), diphthongs[diphthong]);
             }
 
         }
