@@ -67,5 +67,24 @@ module.exports = {
 
         return arr[weightedArr[Math.floor(Math.random() * weightedArr.length)]];
 
+    },
+    romajiToPronunciationGuide: (str) => {
+
+        const converter = require('@koozaki/romaji-conv');
+        const pronunciations = require('./pronunciations.json');
+
+        str = str.toString();
+
+        let pronunciationGuide = converter(str).toKatakana();
+
+        for (let katakana in pronunciations) {
+            
+            if (pronunciationGuide.indexOf(katakana) !== -1) {
+                pronunciationGuide = pronunciationGuide.replace(katakana, pronunciations[katakana] + '-');
+            }
+
+        }
+
+        return pronunciationGuide.substring(0, pronunciationGuide.length - 1);
     }
 };

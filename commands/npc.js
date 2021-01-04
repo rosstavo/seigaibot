@@ -48,7 +48,7 @@ module.exports = {
 
 
         embed.setTitle('I managed to create this person:')
-            .addField('Name', name, true)
+            .addField('Name', name + '\n' + fns.romajiToPronunciationGuide(name), true)
             .addField('Race', race.name, true)
             .addField('Gender', gender, true)
             .addField('Age', `${racialAge} years`, true)
